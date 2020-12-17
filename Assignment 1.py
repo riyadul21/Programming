@@ -9,6 +9,7 @@
 userList = []
 
 def Main_Menu():
+    
     userOptions = int(input("Main Menu\n"
     "1)Add New Address\n"
     "2)Change Existing User\n"
@@ -66,7 +67,7 @@ def Main_Menu():
          userList[i][6] = postcodept2
          print("Their stdcode is", userList[i][7])
          stdcodept2 = input ("Enter New Area Code")
-         userList[i][6] = stdcodept2
+         userList[i][7] = stdcodept2
          print("Telephone Number is", userList[i][8])
          telephone_numberpt2 = input ("Enter New Telephone Number")
          userList[i][8] = telephone_numberpt2
